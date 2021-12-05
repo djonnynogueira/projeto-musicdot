@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .grid-container {
+            display: grid;
+
+            grid-template-columns: 1fr	1fr	1fr;
+			grid-template-rows: 1fr	1fr;
+        }
+        .foto-container	{
+				width: 66%;
+        }
+   
+        .foto	{
+				width: 200px;
+				height: 200px;
+				border-radius: 5px;
+				box-shadow: 3px 3px 3px #000000aa;
+				background-color: #ff002b;
+				margin-bottom: 1rem;
+}
+.foto-destaque-verde	{
+				background-color: #24cc2d;
+				height: 400px;
+
+                grid-row: span 2;
+
+}
+}
+    </style>
+</head>
+
+<body>
+    
+    <main>
+        <div class="grid-container">
+            <!--	Primeira	linha	que	contém	"apenas"	o	bloco	verde	e	o	container	
+            que	guarda	os	elementos	vermelhos-->
+            <div class="foto	foto-destaque-verde"></div> <!--	Bloco	verde	e	primeiro	elemento	da	linha	-->
+            <div class="flex-container	foto-container">
+                <!--	Container	que	vai	guardar	o	restante	dos	ele
+                entos	vermelhos	e	segundo	elemento	da	linha	-->
+                <div class="foto"></div>
+                <div class="foto"></div>
+                <div class="foto"></div>
+                <div class="foto"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

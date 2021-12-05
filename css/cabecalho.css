@@ -1,0 +1,136 @@
+.cabecalho{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+    color: #fff;
+    /* background-color: #2d5377; */
+}
+
+.cabecalho__logo{
+    padding: 1.5em 0;
+    width: 14.5em;
+}
+/* Usando flexbox */
+.cabecalho__menu{
+    /*  Por	padrão,	quando	aplicamos		display:	flex		 para	 um	elemento,	todos	 os	 filhos	 ficam	 um	 do
+        lado	do	outro	como	se	estivessem	sob	o	efeito	de		display:	inline	 */
+    display: flex;
+    /* Os	elementos	terão	um	espaçamento	igual em	ambos	os	lados. */
+    justify-content: space-evenly;
+    /* wrap:	 Os	 elementos	 que	 não	 cabem	mais	 no	 espaço	lateral	 recebem	 uma	 quebra	 de	linha,	 ou seja,	vão	para	a	linha	debaixo. */
+    flex-wrap: wrap;
+
+    background-color: #272b3a87;
+}
+
+
+.cabecalho__item-menu{
+    /* Colocar menus na mesma linha */
+    display: inline-block;
+}
+
+.cabecalho__item-menu a{
+    /* Links "a" na mesma linha*/
+    display: inline-block;
+    padding: 1.80em 1.42em;
+}
+
+
+
+@media (min-width: 640px){
+    .cabecalho{
+        /* padding: 0 5%; */
+        padding-top: 0;
+        padding-bottom: 0;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cabecalho__logo{
+        padding: 2.5em 0;
+    }
+    .cabecalho__menu{
+        background-color:  transparent;
+    }
+}
+
+@media (min-width: 770px){
+    .cabecalho__item-menu--matricular{
+        margin-left: 1.42em;
+
+        border-radius: 6px;
+        background-color: #e93d50;
+    }
+    .cabecalho__item-menu--matricular a{
+        padding: 1.8em 3.5em;
+    }
+}
+
+/* @media	(min-width:	1066px)	{
+    .cabecalho{
+        padding-left: calc((100% - 960px) / 2);
+        padding-right: calc((100% - 960px) / 2);
+    }
+} */
+
+
+
+
+
+
+
+
+
+/* .subtitulo{
+    background-color: teal;
+    text-transform: uppercase;
+
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: bold;
+    
+}
+.rodape__logo{
+   background-color: tomato; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.dados__empresa {
+    background-color: turquoise; 
+    text-align: center;
+    padding: 15px;    
+}
+
+.rodape__icones{
+    display: flex;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+}
+.rodape__icones-rede-social{
+    background-color: teal;
+    margin: 5px; 
+}
+
+.cursos{
+    background-color: violet;
+    text-align: center;
+    margin: 10px
+}
+
+.musicdot{
+    background-color: yellowgreen;
+    text-align: center;
+} */

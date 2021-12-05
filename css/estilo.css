@@ -1,0 +1,25 @@
+#cabecalho{
+    background-color: black;
+    width: auto;
+    color: white;
+    height: 120px;
+    margin: 20px auto;
+    padding-left:20px;
+    padding-top:10px;
+}
+.centralizado {
+    background-color: rgb(182, 240, 199);
+    border: 2px solid #999;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+}
+#rodape{
+    background-color:#008b8b;
+    width: auto;
+    color:black;
+    height: 320px;
+    margin: 20px auto;
+    padding-left:20px;
+    padding-top: 5px;
+}
