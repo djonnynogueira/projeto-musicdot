@@ -1,6 +1,6 @@
 # Projeto MusicDot  - Alura | Caelum
 
-## Treinamento Desenvolvimento Web com HTML, CSS e JavaScript
+## Treinamento Desenvolvimento Web com HTML, CSS e JavaScript 
 
 
 
